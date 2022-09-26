@@ -1,4 +1,4 @@
-import './App.css';
+
 import Search from './components/search/Search';
 import Currentweather from './components/currentweather/Currentweather'
 
@@ -8,7 +8,7 @@ function App() {
 console.log('')
   }
   return (
-    <div className="App">
+    <div className="my-5 mx-auto max-w-screen-lg">
      <Search onSearchChange={handleOnSearchChange}/>
      <Currentweather />
     </div>

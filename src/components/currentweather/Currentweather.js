@@ -1,16 +1,10 @@
-import React from "react";
+import React from 'react'
+import './currentweather.css'
 
 const Currentweather = () => {
   return (
-    <div className="w-72 rounded-md shadow-2xl mt-5 mb-0 mx-auto text-white bg-blue-900">
-      <div>
-        <p>Belgrade</p>
-        <p>Sunny</p>
-        <img src="icons/01d.png" alt="weather" />
-      </div>
-      
-    </div>
-  );
-};
+    <div>Currentweather</div>
+  )
+}
 
-export default Currentweather;
+export default Currentweather

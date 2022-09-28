@@ -6,7 +6,7 @@ const Currentweather = () => {
       <div className="flex justify-between items-center">
         <div className="">
           <p className="font-semibold text-xl leading-none m-0 tracking-wide">
-            Belgrade
+            California
           </p>
           <p className="text-sm leading-none m-0 font-normal">Sunny</p>
         </div>

@@ -26,7 +26,7 @@ function App() {
       .catch((error) => console.log(error));
   };
 
-  console.log(Forecast);
+  console.log(dailyForecast);
   return (
     <div className="my-5 mx-auto max-w-screen-lg">
       <Search onSearchChange={handleOnSearchChange} />

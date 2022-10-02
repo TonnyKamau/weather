@@ -6,4 +6,4 @@ export const geoOptions = {
 	}
 };
 
-export const weatherApiKey = 'yourKey'
+export const weatherApiKey = ''

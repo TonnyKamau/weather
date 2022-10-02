@@ -2,7 +2,7 @@ import React from "react";
 
 const Currentweather = ({ data }) => {
   return (
-    <div className="w-80 rounded-md shadow-2xl text-white mt-5 mx-auto mb-0 bg-slate-700 pt-0 pb-5 px-5">
+    <div className="w-80 rounded-xl shadow-2xl text-white mt-5 mx-auto mb-0 bg-slate-700 pt-0 pb-5 px-5">
       <div className="flex justify-between items-center">
         <div className="">
           <p className="font-semibold text-xl leading-none m-0 tracking-wide">
